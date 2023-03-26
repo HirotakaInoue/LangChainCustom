@@ -1,11 +1,11 @@
 from conversation import Conversation
 
 # settings from here
-topic = "地球の形はどうなっている？"
-jon = {"name": "Jon",
-       "condition": "地動説を信じる人"}
-adam = {"name": "Adam",
-        "condition": "天動説を信じる人"}
+topic = "AIが人間を超える知能を手に入れたときにどうするべきか?"
+jon = {"name": "ポジティブ",
+       "condition": "ポジティブなAI"}
+adam = {"name": "ネガティブ",
+        "condition": "ネガティブなAI"}
 
 # to here
 
