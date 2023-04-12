@@ -19,7 +19,8 @@ class OpenAI(Singleton):
 
     def run_api(self, prompt):
         r = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
-            messages=prompt
+            model="gpt-4",
+            messages=prompt,
+            # frequency_penalty=-0.2
         )
         return r['choices'][0]['message']['content']

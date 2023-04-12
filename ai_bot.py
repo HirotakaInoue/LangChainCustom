@@ -14,7 +14,7 @@ class AIBot:
         })
 
     def set_condition(self, condition_prompt):
-        self.add_hist('user', condition_prompt)
+        self.add_hist('system', condition_prompt)
         response = self.openai.run_api(self.hist)
         self.add_hist('assistant', response)
 
